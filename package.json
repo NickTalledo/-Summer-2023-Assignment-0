@@ -4,6 +4,7 @@
   "description": "This is a README file. Initial commit.",
   "main": "index.js",
   "scripts": {
+    "test": "jest",
     "test-all": "mocha */*.test.js --watch",
     "test-00": "mocha */greetFriend.test.js --watch",
     "test-01": "mocha */titleCaseEdit.test.js --watch",
@@ -42,5 +43,8 @@
     "mocha": "^7.1.2",
     "moment": "^2.25.1",
     "sinon": "^9.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
